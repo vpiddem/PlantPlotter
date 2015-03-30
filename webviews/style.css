@@ -1,0 +1,96 @@
+/* CSS Document */
+body {
+	background-color: #BFB;
+}
+.image {
+	float: left;
+	width: 15%;
+	height: auto;
+	border: solid 1px black;
+	margin-right: 5%;
+}
+
+.icon {
+	width: 15%;
+	height: auto;
+	padding: 0;
+}
+
+.icon_img {
+	width: 100%;
+	height: auto;
+	border: solid 1px black;
+}
+
+#map_img {
+	width: 100%;
+	height: auto;
+}
+#map_table {
+	width: 100%;
+}
+
+#info_image {
+	width: 35%;
+}
+
+.response_text {
+	font: 24pt Verdana, Geneva, sans-serif;
+	padding-top: 2%;
+}
+
+#question {
+	font: 30pt Verdana, Geneva, sans-serif;
+	padding-top: 50px;
+}
+
+#life_cycle {
+	width: 100%;
+	padding: 0;
+}
+
+#life_cycle img {
+	border: solid black 1px;
+	width: 100%;
+	padding: 0;
+}
+
+figure {
+	float: left;
+	width: 20%;
+	padding: 0;
+	margin: 2%;
+	text-align: center;
+}
+
+figcaption {
+	font: 24pt Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#user_input {
+	width: 100%;
+	clear: both;
+}
+
+td {
+	padding-bottom: 5%;
+}
+
+h1 {
+	font: bold 40pt Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+h2 {
+	font: bold 36pt Verdana, Geneva, sans-serif;
+	margin-top: 5%;
+}
+
+#sciName {
+	font: 18pt Verdana, Geneva, sans-serif;
+	text-align: center;
+}

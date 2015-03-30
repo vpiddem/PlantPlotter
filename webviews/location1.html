@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Red Lace-leaf Japanese Maple (Acer palmatum var. dissectum)</title>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+</head>
+
+<body>
+<h1>Red Lace-leaf Japanese Maple</h1>
+<p id="sciName">Scientific Name: Acer palmatum var. dissectum</p>
+
+<div id="life_cycle">
+	<h2>Seasonal Cycle</h2>
+	<figure>
+		<img id="winter" src="images/winter.jpg" />
+		<figcaption>Winter</figcaption>
+	</figure>
+	<figure>
+		<img id="spring" src="images/spring.jpg" />
+	<figcaption>Spring</figcaption>
+	</figure>
+	<figure>
+		<img id="summer" src="images/summer.jpg" />
+	<figcaption>Summer</figcaption>
+	</figure>
+	<figure>
+		<img id="autumn" src="images/autumn.jpg" />
+	<figcaption>Autumn</figcaption>
+	</figure>
+</div>
+
+<table id="user_input">
+	<tr>
+		<td id="question"">Click to Start!</td>
+	</tr>
+	<tr>
+		<td class="response" id="info" onClick="checkResponse(0)">
+			<img class="image" id="info_image" src="images/start-button.png" />
+			<div class="response_text" id="info_text">Click the button to begin!</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="response" id="response1" onClick="checkResponse(1)" hidden>
+			<img class="image" id="image1" src="" />
+			<div class="response_text" id="text1"></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="response" id="response2" onClick="checkResponse(2)" hidden>
+			<img class="image" id="image2" src="" />
+			<div class="response_text" id="text2"></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="response" id="response3" onClick="checkResponse(3)" hidden>
+			<img class="image" id="image3" src="" />
+			<div class="response_text" id="text3"></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="response" id="response4" onClick="checkResponse(4)" hidden>
+			<img class="image" id="image4" src="" />
+			<div class="response_text" id="text4"></div>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
